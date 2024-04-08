@@ -137,26 +137,33 @@
   }
 
   .work-title {
+    width: 275px;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 30px;
     font-variant: all-small-caps;
     color: var(--text-color);
-
     display: flex;
     justify-content: center;
-  } 
-
-  .current-two {
-    position: relative;
-    color: var(--text-color);
-    width: 200px;
   }
 
-  .current-two::after {
+  .current-two {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+    color: var(--text-color);
+  }
+
+ .current-two::after {
     position: absolute;
     content: " ";
-    width: 100%;
+    width: 200px;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
     height: 4px;
     bottom: -40px;
     left: 0;
@@ -172,17 +179,16 @@
   }
 
   .photography-list {
+    flex-wrap: wrap;
+    gap: 69px;
     display: flex;
     justify-content: center;
   }
 
   .photography-item {
-
-  }
-
-  /* .photography-list > .photography-item {
+    display: flex;
     flex-basis: calc((100% - 138px) / 3);
-  } */
+  }
 
   .photography-title {
   font-family: var(--font-family);
@@ -236,18 +242,21 @@
     color: var(--text-color);
     display: flex;
     justify-content: center;
+    margin-bottom:75px;
   }
 
   .current-three {
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
     position: relative;
     color: var(--text-color);
-    width: 200px;
   }
 
   .current-three::after {
     position: absolute;
     content: " ";
-    width: 100%;
+    width: 200px;
     height: 4px;
     bottom: -40px;
     left: 0;
@@ -327,10 +336,10 @@
 
 /* footer */
 .footer {
-   margin-top: 80px;
-   border: 1px solid var(--text-two-color);
-   width: 1200px;
-   height: 1px;
+  margin-top: 10px;
+  padding-top: 80px;
+  border-bottom: 1px solid var(--text-two-color);
+  height: 1px;
 }
 
 .footer-text {
@@ -375,17 +384,18 @@
 }
 
 .footer-btn {
-    width: 150px;
-    height: 40px;
-    background-color: var(--svg-color);
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 14px;
-    font-variant: all-small-caps;
-    text-align: center;
-    color: var(--title-big-color);
-    border: var(--svg-color);
-    transition: background-color 250ms ease-in-out;
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: var(--svg-color);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  font-variant: all-small-caps;
+  text-align: center;
+  color: var(--title-big-color);
+  border: var(--svg-color);
+  transition: background-color 250ms ease-in-out;
 }
 
 .footer-btn:hover,
