@@ -1,0 +1,37 @@
+.photography {
+    margin-bottom: 100px;
+  }
+
+  .photography-list {
+    flex-wrap: wrap;
+    gap: 69px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .photography-item {
+    display: flex;
+    flex-basis: calc((100% - 138px) / 3);
+  }
+
+  .photography-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  font-variant: small-caps;
+  color: var(--text-color);
+  }
+
+  .photography-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 147%;
+    color: var(--text-two-color);
+    width: 275px;
+    height: 37px;
+  }
+
+  .photography-svg {
+    fill: var(--svg-color);
+  }

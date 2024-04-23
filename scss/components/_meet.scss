@@ -1,0 +1,52 @@
+.meet-text {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+  }
+
+  .meet-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    font-variant: all-small-caps;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    margin-bottom:75px;
+  }
+
+  .current-three {
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    position: relative;
+    color: var(--text-color);
+  }
+
+  .current-three::after {
+    position: absolute;
+    content: " ";
+    width: 200px;
+    height: 4px;
+    bottom: -40px;
+    left: 0;
+    background-color: var(--menu-color);
+
+    transform: scaleX(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .meet-text-two {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: var(--text-two-color);
+    width: 1104ps;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+  }
