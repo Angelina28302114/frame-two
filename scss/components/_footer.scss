@@ -1,7 +1,7 @@
 .footer {
     margin-top: 10px;
     padding-top: 80px;
-    border-bottom: 1px solid var(--text-two-color);
+    border-bottom: 1px solid $text-two-color;
     height: 1px;
   }
   
@@ -10,7 +10,7 @@
       font-weight: 400;
       font-size: 14px;
       text-align: center;
-      color: var(--text-color);
+      color: $text-color;
   }
   
   .footer-text-two {
@@ -18,7 +18,7 @@
       font-weight: 400;
       font-size: 14px;
       text-align: center;
-      color: var(--menu-color);
+      color: $menu-color;
   }
   
   .footer-label {
@@ -27,13 +27,13 @@
       font-weight: 300;
       font-size: 14px;
       text-align: center;
-      color: var(--text-two-color);
+      color: $text-two-color;
       margin-left: 524px;
   }
   
   .footer-form {
       stroke-width: 1px;
-      border: 1px solid var(--text-two-color);
+      border: 1px solid $text-two-color;
       margin-right: -10px;
       padding-top: 12px;
       padding-left: 10px;
@@ -43,26 +43,26 @@
   
   .footer-form:hover,
   .footer-form:focus {
-      border: 1px solid var(--svg-color);
+      border: 1px solid $svg-color;
   }
   
   .footer-btn {
     margin-top: 10px;
     width: 150px;
     height: 40px;
-    background-color: var(--svg-color);
+    background-color: $svg-color;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
     font-variant: all-small-caps;
     text-align: center;
-    color: var(--title-big-color);
-    border: var(--svg-color);
+    color: $title-big-color;
+    border: $svg-color;
     transition: background-color 250ms ease-in-out;
   }
   
   .footer-btn:hover,
   .footer-btn:focus {
-      background-color: var(--title-big-color);
-      color: var(--svg-color);
+      background-color: $title-big-color;
+      color: $svg-color;
   }

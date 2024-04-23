@@ -11,7 +11,7 @@
     font-size: 14px;
     font-variant: all-small-caps;
     text-align: center;
-    color: var(--text-color);
+    color: $text-color;
     margin-top: 30px;
 }
 
@@ -21,7 +21,7 @@
     font-weight: 300;
     font-size: 15px;
     text-align: center;
-    color: var(--text-two-color);
+    color: $text-two-color;
     margin-top: 11px;
 }
 

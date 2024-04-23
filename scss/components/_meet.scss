@@ -2,7 +2,7 @@
     font-family: var(--third-family);
     font-weight: 400;
     font-size: 24px;
-    color: var(--text-color);
+    color: $text-color;
     display: flex;
     justify-content: center;
   }
@@ -12,7 +12,7 @@
     font-weight: 700;
     font-size: 30px;
     font-variant: all-small-caps;
-    color: var(--text-color);
+    color: $text-color;
     display: flex;
     justify-content: center;
     margin-bottom:75px;
@@ -23,7 +23,7 @@
     margin-right:auto;
     display:flex;
     position: relative;
-    color: var(--text-color);
+    color: $text-color;
   }
 
   .current-three::after {
@@ -33,7 +33,7 @@
     height: 4px;
     bottom: -40px;
     left: 0;
-    background-color: var(--menu-color);
+    background-color: $menu-color;
 
     transform: scaleX(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -44,7 +44,7 @@
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-    color: var(--text-two-color);
+    color:  $text-two-color;
     width: 1104ps;
     height: 47px;
     display: flex;
