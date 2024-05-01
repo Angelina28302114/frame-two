@@ -1,0 +1,19 @@
+%btn {
+    display: inline-flex;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 11px 20px;
+    color: white;
+    border: none;
+    background: rgb(79, 106, 213);
+}
+
+.btn-succsess {
+@extend %btn;
+background-color: rgb(90, 204, 147);
+}
+
+.btn-error {
+    @extend %btn;
+    background-color: rgb(204, 90, 90);
+}
